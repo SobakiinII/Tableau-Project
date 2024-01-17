@@ -25,7 +25,13 @@ Use Tableau to answer the following questions and deliver results using a 5-minu
 
 ## Goals:
 
-My goals with this project are simply to use Tableau to properly visualize and analyze the given datasets 
+My goals with this project are simply to use Tableau to properly visualize and analyze the given datasets. This would give a real sense of how visualization is used in data analytics, and good handle on how to properly use Tableau.
+
+## Process
+
+The data was almost perfecty usable on its own. The two exceptions were the real-estate prices and weekly earnings dataset, which were given in xlsx and json format respectively. 
+There was an agregate table, but to use the real-estate price dataset for the heatmap as requested, i needed to run a Union including every page except the agregate.
+Weekly earnings was a different beast entirely. While Tableau is capable of reading json, it has a very difficult time with json that has not been made with it in mind. I needed to make a python program specifically to extract the column names and data from the dictionary.
 
 ## Results
 I chose Option 1

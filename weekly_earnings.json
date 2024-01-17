@@ -27,672 +27,674 @@
       "viewCount" : 366766,
       "viewLastModified" : 1392925564,
       "viewType" : "tabular",
-      "columns" : [ {
-        "id" : -1,
-        "name" : "sid",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":sid",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : {
-        }
-      }, {
-        "id" : -1,
-        "name" : "id",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":id",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : {
-        }
-      }, {
-        "id" : -1,
-        "name" : "position",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":position",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : {
-        }
-      }, {
-        "id" : -1,
-        "name" : "created_at",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":created_at",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : {
-        }
-      }, {
-        "id" : -1,
-        "name" : "created_meta",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":created_meta",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : {
-        }
-      }, {
-        "id" : -1,
-        "name" : "updated_at",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":updated_at",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : {
-        }
-      }, {
-        "id" : -1,
-        "name" : "updated_meta",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":updated_meta",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : {
-        }
-      }, {
-        "id" : -1,
-        "name" : "meta",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":meta",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : {
-        }
-      }, {
-        "id" : 131248874,
-        "name" : "When",
-        "dataTypeName" : "calendar_date",
-        "fieldName" : "when",
-        "position" : 1,
-        "renderTypeName" : "calendar_date",
-        "tableColumnId" : 17874417,
-        "width" : 160,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "2001-01-01T00:00:00",
-          "null" : 0,
-          "largest" : "2015-04-01T00:00:00",
-          "top" : [ {
-            "count" : 20,
-            "item" : "2014-09-01T00:00:00"
-          }, {
-            "count" : 19,
-            "item" : "2014-10-01T00:00:00"
-          }, {
-            "count" : 18,
-            "item" : "2014-11-01T00:00:00"
-          }, {
-            "count" : 17,
-            "item" : "2014-12-01T00:00:00"
-          }, {
-            "count" : 16,
-            "item" : "2015-01-01T00:00:00"
-          }, {
-            "count" : 15,
-            "item" : "2015-02-01T00:00:00"
-          }, {
-            "count" : 14,
-            "item" : "2015-03-01T00:00:00"
-          }, {
-            "count" : 13,
-            "item" : "2015-04-01T00:00:00"
-          } ]
-        },
-        "format" : {
-          "view" : "date",
-          "align" : "left"
-        }
-      }, {
-        "id" : 131248875,
-        "name" : "NAICS",
-        "dataTypeName" : "text",
-        "fieldName" : "naics",
-        "position" : 2,
-        "renderTypeName" : "text",
-        "tableColumnId" : 17874418,
-        "width" : 160,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "Industrial aggregate excluding unclassified businesses",
-          "null" : 0,
-          "largest" : "Industrial aggregate excluding unclassified businesses",
-          "top" : [ {
-            "count" : 20,
-            "item" : "Industrial aggregate excluding unclassified businesses"
-          } ]
-        },
-        "format" : {
-        }
-      }, {
-        "id" : 131248876,
-        "name" : "Alberta",
-        "dataTypeName" : "number",
-        "fieldName" : "alberta",
-        "position" : 3,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874419,
-        "width" : 184,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "664.45",
-          "sum" : "154961.85",
-          "null" : 0,
-          "average" : "900.9409883720930",
-          "largest" : "1176.32",
-          "top" : [ {
-            "count" : 20,
-            "item" : "1159.89"
-          }, {
-            "count" : 19,
-            "item" : "1163.69"
-          }, {
-            "count" : 18,
-            "item" : "1160.77"
-          }, {
-            "count" : 17,
-            "item" : "1159.60"
-          }, {
-            "count" : 16,
-            "item" : "1158.79"
-          }, {
-            "count" : 15,
-            "item" : "1176.32"
-          }, {
-            "count" : 14,
-            "item" : "1173.23"
-          }, {
-            "count" : 13,
-            "item" : "1150.61"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248877,
-        "name" : "BritishColumbia",
-        "dataTypeName" : "number",
-        "fieldName" : "britishcolumbia",
-        "position" : 4,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874420,
-        "width" : 280,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "653.23",
-          "sum" : "133555.31",
-          "null" : 0,
-          "average" : "776.4843604651163",
-          "largest" : "919.20",
-          "top" : [ {
-            "count" : 20,
-            "item" : "896.29"
-          }, {
-            "count" : 19,
-            "item" : "901.86"
-          }, {
-            "count" : 18,
-            "item" : "902.69"
-          }, {
-            "count" : 17,
-            "item" : "904.11"
-          }, {
-            "count" : 16,
-            "item" : "911.57"
-          }, {
-            "count" : 15,
-            "item" : "919.20"
-          }, {
-            "count" : 14,
-            "item" : "911.73"
-          }, {
-            "count" : 13,
-            "item" : "899.15"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248878,
-        "name" : "Canada",
-        "dataTypeName" : "number",
-        "fieldName" : "canada",
-        "position" : 5,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874421,
-        "width" : 172,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "650.02",
-          "sum" : "137122.90",
-          "null" : 0,
-          "average" : "797.2261627906977",
-          "largest" : "957.80",
-          "top" : [ {
-            "count" : 20,
-            "item" : "934.74"
-          }, {
-            "count" : 19,
-            "item" : "940.68"
-          }, {
-            "count" : 18,
-            "item" : "937.83"
-          }, {
-            "count" : 17,
-            "item" : "948.40"
-          }, {
-            "count" : 16,
-            "item" : "944.98"
-          }, {
-            "count" : 15,
-            "item" : "957.80"
-          }, {
-            "count" : 14,
-            "item" : "956.50"
-          }, {
-            "count" : 13,
-            "item" : "954.70"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248879,
-        "name" : "Manitoba",
-        "dataTypeName" : "number",
-        "fieldName" : "manitoba",
-        "position" : 6,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874422,
-        "width" : 196,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "571.84",
-          "sum" : "124970.50",
-          "null" : 0,
-          "average" : "726.5726744186047",
-          "largest" : "886.94",
-          "top" : [ {
-            "count" : 20,
-            "item" : "869.33"
-          }, {
-            "count" : 19,
-            "item" : "872.41"
-          }, {
-            "count" : 18,
-            "item" : "862.07"
-          }, {
-            "count" : 17,
-            "item" : "886.94"
-          }, {
-            "count" : 16,
-            "item" : "875.17"
-          }, {
-            "count" : 15,
-            "item" : "873.35"
-          }, {
-            "count" : 14,
-            "item" : "865.29"
-          }, {
-            "count" : 13,
-            "item" : "864.69"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248880,
-        "name" : "NewBrunswick",
-        "dataTypeName" : "number",
-        "fieldName" : "newbrunswick",
-        "position" : 7,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874423,
-        "width" : 244,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "578.44",
-          "sum" : "122782.43",
-          "null" : 0,
-          "average" : "713.8513372093023",
-          "largest" : "864.81",
-          "top" : [ {
-            "count" : 20,
-            "item" : "836.43"
-          }, {
-            "count" : 19,
-            "item" : "838.49"
-          }, {
-            "count" : 18,
-            "item" : "838.71"
-          }, {
-            "count" : 17,
-            "item" : "856.35"
-          }, {
-            "count" : 16,
-            "item" : "842.03"
-          }, {
-            "count" : 15,
-            "item" : "854.39"
-          }, {
-            "count" : 14,
-            "item" : "848.22"
-          }, {
-            "count" : 13,
-            "item" : "864.81"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248881,
-        "name" : "NewfoundlandAndLabrador",
-        "dataTypeName" : "number",
-        "fieldName" : "newfoundlandandlabrador",
-        "position" : 8,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874424,
-        "width" : 376,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "585.27",
-          "sum" : "133323.97",
-          "null" : 0,
-          "average" : "775.1393604651163",
-          "largest" : "1022.75",
-          "top" : [ {
-            "count" : 20,
-            "item" : "997.27"
-          }, {
-            "count" : 19,
-            "item" : "1001.57"
-          }, {
-            "count" : 18,
-            "item" : "1007.37"
-          }, {
-            "count" : 17,
-            "item" : "1006.98"
-          }, {
-            "count" : 16,
-            "item" : "1007.20"
-          }, {
-            "count" : 15,
-            "item" : "1015.85"
-          }, {
-            "count" : 14,
-            "item" : "1022.75"
-          }, {
-            "count" : 13,
-            "item" : "1019.61"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248882,
-        "name" : "NovaScotia",
-        "dataTypeName" : "number",
-        "fieldName" : "novascotia",
-        "position" : 9,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874425,
-        "width" : 220,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "567.96",
-          "sum" : "120969.54",
-          "null" : 0,
-          "average" : "703.3112790697674",
-          "largest" : "836.76",
-          "top" : [ {
-            "count" : 20,
-            "item" : "811.21"
-          }, {
-            "count" : 19,
-            "item" : "820.12"
-          }, {
-            "count" : 18,
-            "item" : "816.48"
-          }, {
-            "count" : 17,
-            "item" : "836.76"
-          }, {
-            "count" : 16,
-            "item" : "830.52"
-          }, {
-            "count" : 15,
-            "item" : "829.09"
-          }, {
-            "count" : 14,
-            "item" : "823.01"
-          }, {
-            "count" : 13,
-            "item" : "835.31"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248883,
-        "name" : "Ontario",
-        "dataTypeName" : "number",
-        "fieldName" : "ontario",
-        "position" : 10,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874426,
-        "width" : 184,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "688.27",
-          "sum" : "141783.66",
-          "null" : 0,
-          "average" : "824.3236046511628",
-          "largest" : "969.17",
-          "top" : [ {
-            "count" : 20,
-            "item" : "935.30"
-          }, {
-            "count" : 19,
-            "item" : "936.71"
-          }, {
-            "count" : 18,
-            "item" : "938.67"
-          }, {
-            "count" : 17,
-            "item" : "950.38"
-          }, {
-            "count" : 16,
-            "item" : "951.10"
-          }, {
-            "count" : 15,
-            "item" : "969.17"
-          }, {
-            "count" : 14,
-            "item" : "968.75"
-          }, {
-            "count" : 13,
-            "item" : "964.80"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248884,
-        "name" : "PrinceEdwardIsland",
-        "dataTypeName" : "number",
-        "fieldName" : "princeedwardisland",
-        "position" : 11,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874427,
-        "width" : 316,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "509.55",
-          "sum" : "113128.15",
-          "null" : 0,
-          "average" : "657.7218023255814",
-          "largest" : "809.92",
-          "top" : [ {
-            "count" : 20,
-            "item" : "757.86"
-          }, {
-            "count" : 19,
-            "item" : "774.24"
-          }, {
-            "count" : 18,
-            "item" : "782.53"
-          }, {
-            "count" : 17,
-            "item" : "803.66"
-          }, {
-            "count" : 16,
-            "item" : "794.39"
-          }, {
-            "count" : 15,
-            "item" : "792.26"
-          }, {
-            "count" : 14,
-            "item" : "800.10"
-          }, {
-            "count" : 13,
-            "item" : "809.92"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248885,
-        "name" : "Quebec",
-        "dataTypeName" : "number",
-        "fieldName" : "quebec",
-        "position" : 12,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874428,
-        "width" : 172,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "618.90",
-          "sum" : "127414.77",
-          "null" : 0,
-          "average" : "740.7835465116279",
-          "largest" : "881.27",
-          "top" : [ {
-            "count" : 20,
-            "item" : "842.92"
-          }, {
-            "count" : 19,
-            "item" : "858.82"
-          }, {
-            "count" : 18,
-            "item" : "844.51"
-          }, {
-            "count" : 17,
-            "item" : "862.12"
-          }, {
-            "count" : 16,
-            "item" : "846.73"
-          }, {
-            "count" : 15,
-            "item" : "857.53"
-          }, {
-            "count" : 14,
-            "item" : "861.10"
-          }, {
-            "count" : 13,
-            "item" : "881.27"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 131248886,
-        "name" : "Saskatchewan",
-        "dataTypeName" : "number",
-        "fieldName" : "saskatchewan",
-        "position" : 13,
-        "renderTypeName" : "number",
-        "tableColumnId" : 17874429,
-        "width" : 244,
-        "cachedContents" : {
-          "non_null" : 172,
-          "smallest" : "587.41",
-          "sum" : "133112.72",
-          "null" : 0,
-          "average" : "773.9111627906977",
-          "largest" : "992.31",
-          "top" : [ {
-            "count" : 20,
-            "item" : "979.19"
-          }, {
-            "count" : 19,
-            "item" : "984.95"
-          }, {
-            "count" : 18,
-            "item" : "992.31"
-          }, {
-            "count" : 17,
-            "item" : "991.30"
-          }, {
-            "count" : 16,
-            "item" : "982.60"
-          }, {
-            "count" : 15,
-            "item" : "991.21"
-          }, {
-            "count" : 14,
-            "item" : "988.79"
-          }, {
-            "count" : 13,
-            "item" : "977.35"
-          } ]
-        },
-        "format" : {
-          "precisionStyle" : "standard",
-          "precision" : "2",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      } ],
+      "columns" : 
+        [ 
+          {
+          "id" : -1,
+          "name" : "sid",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":sid",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : {
+          }
+          }, {
+            "id" : -1,
+            "name" : "id",
+            "dataTypeName" : "meta_data",
+            "fieldName" : ":id",
+            "position" : 0,
+            "renderTypeName" : "meta_data",
+            "format" : {
+            }
+          }, {
+            "id" : -1,
+            "name" : "position",
+            "dataTypeName" : "meta_data",
+            "fieldName" : ":position",
+            "position" : 0,
+            "renderTypeName" : "meta_data",
+            "format" : {
+            }
+          }, {
+            "id" : -1,
+            "name" : "created_at",
+            "dataTypeName" : "meta_data",
+            "fieldName" : ":created_at",
+            "position" : 0,
+            "renderTypeName" : "meta_data",
+            "format" : {
+            }
+          }, {
+            "id" : -1,
+            "name" : "created_meta",
+            "dataTypeName" : "meta_data",
+            "fieldName" : ":created_meta",
+            "position" : 0,
+            "renderTypeName" : "meta_data",
+            "format" : {
+            }
+          }, {
+            "id" : -1,
+            "name" : "updated_at",
+            "dataTypeName" : "meta_data",
+            "fieldName" : ":updated_at",
+            "position" : 0,
+            "renderTypeName" : "meta_data",
+            "format" : {
+            }
+          }, {
+            "id" : -1,
+            "name" : "updated_meta",
+            "dataTypeName" : "meta_data",
+            "fieldName" : ":updated_meta",
+            "position" : 0,
+            "renderTypeName" : "meta_data",
+            "format" : {
+            }
+          }, {
+            "id" : -1,
+            "name" : "meta",
+            "dataTypeName" : "meta_data",
+            "fieldName" : ":meta",
+            "position" : 0,
+            "renderTypeName" : "meta_data",
+            "format" : {
+            }
+          }, {
+            "id" : 131248874,
+            "name" : "When",
+            "dataTypeName" : "calendar_date",
+            "fieldName" : "when",
+            "position" : 1,
+            "renderTypeName" : "calendar_date",
+            "tableColumnId" : 17874417,
+            "width" : 160,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "2001-01-01T00:00:00",
+              "null" : 0,
+              "largest" : "2015-04-01T00:00:00",
+              "top" : [ {
+                "count" : 20,
+                "item" : "2014-09-01T00:00:00"
+              }, {
+                "count" : 19,
+                "item" : "2014-10-01T00:00:00"
+              }, {
+                "count" : 18,
+                "item" : "2014-11-01T00:00:00"
+              }, {
+                "count" : 17,
+                "item" : "2014-12-01T00:00:00"
+              }, {
+                "count" : 16,
+                "item" : "2015-01-01T00:00:00"
+              }, {
+                "count" : 15,
+                "item" : "2015-02-01T00:00:00"
+              }, {
+                "count" : 14,
+                "item" : "2015-03-01T00:00:00"
+              }, {
+                "count" : 13,
+                "item" : "2015-04-01T00:00:00"
+              } ]
+            },
+            "format" : {
+              "view" : "date",
+              "align" : "left"
+            }
+          }, {
+            "id" : 131248875,
+            "name" : "NAICS",
+            "dataTypeName" : "text",
+            "fieldName" : "naics",
+            "position" : 2,
+            "renderTypeName" : "text",
+            "tableColumnId" : 17874418,
+            "width" : 160,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "Industrial aggregate excluding unclassified businesses",
+              "null" : 0,
+              "largest" : "Industrial aggregate excluding unclassified businesses",
+              "top" : [ {
+                "count" : 20,
+                "item" : "Industrial aggregate excluding unclassified businesses"
+              } ]
+            },
+            "format" : {
+            }
+          }, {
+            "id" : 131248876,
+            "name" : "Alberta",
+            "dataTypeName" : "number",
+            "fieldName" : "alberta",
+            "position" : 3,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874419,
+            "width" : 184,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "664.45",
+              "sum" : "154961.85",
+              "null" : 0,
+              "average" : "900.9409883720930",
+              "largest" : "1176.32",
+              "top" : [ {
+                "count" : 20,
+                "item" : "1159.89"
+              }, {
+                "count" : 19,
+                "item" : "1163.69"
+              }, {
+                "count" : 18,
+                "item" : "1160.77"
+              }, {
+                "count" : 17,
+                "item" : "1159.60"
+              }, {
+                "count" : 16,
+                "item" : "1158.79"
+              }, {
+                "count" : 15,
+                "item" : "1176.32"
+              }, {
+                "count" : 14,
+                "item" : "1173.23"
+              }, {
+                "count" : 13,
+                "item" : "1150.61"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248877,
+            "name" : "BritishColumbia",
+            "dataTypeName" : "number",
+            "fieldName" : "britishcolumbia",
+            "position" : 4,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874420,
+            "width" : 280,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "653.23",
+              "sum" : "133555.31",
+              "null" : 0,
+              "average" : "776.4843604651163",
+              "largest" : "919.20",
+              "top" : [ {
+                "count" : 20,
+                "item" : "896.29"
+              }, {
+                "count" : 19,
+                "item" : "901.86"
+              }, {
+                "count" : 18,
+                "item" : "902.69"
+              }, {
+                "count" : 17,
+                "item" : "904.11"
+              }, {
+                "count" : 16,
+                "item" : "911.57"
+              }, {
+                "count" : 15,
+                "item" : "919.20"
+              }, {
+                "count" : 14,
+                "item" : "911.73"
+              }, {
+                "count" : 13,
+                "item" : "899.15"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248878,
+            "name" : "Canada",
+            "dataTypeName" : "number",
+            "fieldName" : "canada",
+            "position" : 5,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874421,
+            "width" : 172,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "650.02",
+              "sum" : "137122.90",
+              "null" : 0,
+              "average" : "797.2261627906977",
+              "largest" : "957.80",
+              "top" : [ {
+                "count" : 20,
+                "item" : "934.74"
+              }, {
+                "count" : 19,
+                "item" : "940.68"
+              }, {
+                "count" : 18,
+                "item" : "937.83"
+              }, {
+                "count" : 17,
+                "item" : "948.40"
+              }, {
+                "count" : 16,
+                "item" : "944.98"
+              }, {
+                "count" : 15,
+                "item" : "957.80"
+              }, {
+                "count" : 14,
+                "item" : "956.50"
+              }, {
+                "count" : 13,
+                "item" : "954.70"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248879,
+            "name" : "Manitoba",
+            "dataTypeName" : "number",
+            "fieldName" : "manitoba",
+            "position" : 6,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874422,
+            "width" : 196,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "571.84",
+              "sum" : "124970.50",
+              "null" : 0,
+              "average" : "726.5726744186047",
+              "largest" : "886.94",
+              "top" : [ {
+                "count" : 20,
+                "item" : "869.33"
+              }, {
+                "count" : 19,
+                "item" : "872.41"
+              }, {
+                "count" : 18,
+                "item" : "862.07"
+              }, {
+                "count" : 17,
+                "item" : "886.94"
+              }, {
+                "count" : 16,
+                "item" : "875.17"
+              }, {
+                "count" : 15,
+                "item" : "873.35"
+              }, {
+                "count" : 14,
+                "item" : "865.29"
+              }, {
+                "count" : 13,
+                "item" : "864.69"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248880,
+            "name" : "NewBrunswick",
+            "dataTypeName" : "number",
+            "fieldName" : "newbrunswick",
+            "position" : 7,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874423,
+            "width" : 244,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "578.44",
+              "sum" : "122782.43",
+              "null" : 0,
+              "average" : "713.8513372093023",
+              "largest" : "864.81",
+              "top" : [ {
+                "count" : 20,
+                "item" : "836.43"
+              }, {
+                "count" : 19,
+                "item" : "838.49"
+              }, {
+                "count" : 18,
+                "item" : "838.71"
+              }, {
+                "count" : 17,
+                "item" : "856.35"
+              }, {
+                "count" : 16,
+                "item" : "842.03"
+              }, {
+                "count" : 15,
+                "item" : "854.39"
+              }, {
+                "count" : 14,
+                "item" : "848.22"
+              }, {
+                "count" : 13,
+                "item" : "864.81"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248881,
+            "name" : "NewfoundlandAndLabrador",
+            "dataTypeName" : "number",
+            "fieldName" : "newfoundlandandlabrador",
+            "position" : 8,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874424,
+            "width" : 376,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "585.27",
+              "sum" : "133323.97",
+              "null" : 0,
+              "average" : "775.1393604651163",
+              "largest" : "1022.75",
+              "top" : [ {
+                "count" : 20,
+                "item" : "997.27"
+              }, {
+                "count" : 19,
+                "item" : "1001.57"
+              }, {
+                "count" : 18,
+                "item" : "1007.37"
+              }, {
+                "count" : 17,
+                "item" : "1006.98"
+              }, {
+                "count" : 16,
+                "item" : "1007.20"
+              }, {
+                "count" : 15,
+                "item" : "1015.85"
+              }, {
+                "count" : 14,
+                "item" : "1022.75"
+              }, {
+                "count" : 13,
+                "item" : "1019.61"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248882,
+            "name" : "NovaScotia",
+            "dataTypeName" : "number",
+            "fieldName" : "novascotia",
+            "position" : 9,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874425,
+            "width" : 220,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "567.96",
+              "sum" : "120969.54",
+              "null" : 0,
+              "average" : "703.3112790697674",
+              "largest" : "836.76",
+              "top" : [ {
+                "count" : 20,
+                "item" : "811.21"
+              }, {
+                "count" : 19,
+                "item" : "820.12"
+              }, {
+                "count" : 18,
+                "item" : "816.48"
+              }, {
+                "count" : 17,
+                "item" : "836.76"
+              }, {
+                "count" : 16,
+                "item" : "830.52"
+              }, {
+                "count" : 15,
+                "item" : "829.09"
+              }, {
+                "count" : 14,
+                "item" : "823.01"
+              }, {
+                "count" : 13,
+                "item" : "835.31"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248883,
+            "name" : "Ontario",
+            "dataTypeName" : "number",
+            "fieldName" : "ontario",
+            "position" : 10,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874426,
+            "width" : 184,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "688.27",
+              "sum" : "141783.66",
+              "null" : 0,
+              "average" : "824.3236046511628",
+              "largest" : "969.17",
+              "top" : [ {
+                "count" : 20,
+                "item" : "935.30"
+              }, {
+                "count" : 19,
+                "item" : "936.71"
+              }, {
+                "count" : 18,
+                "item" : "938.67"
+              }, {
+                "count" : 17,
+                "item" : "950.38"
+              }, {
+                "count" : 16,
+                "item" : "951.10"
+              }, {
+                "count" : 15,
+                "item" : "969.17"
+              }, {
+                "count" : 14,
+                "item" : "968.75"
+              }, {
+                "count" : 13,
+                "item" : "964.80"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248884,
+            "name" : "PrinceEdwardIsland",
+            "dataTypeName" : "number",
+            "fieldName" : "princeedwardisland",
+            "position" : 11,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874427,
+            "width" : 316,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "509.55",
+              "sum" : "113128.15",
+              "null" : 0,
+              "average" : "657.7218023255814",
+              "largest" : "809.92",
+              "top" : [ {
+                "count" : 20,
+                "item" : "757.86"
+              }, {
+                "count" : 19,
+                "item" : "774.24"
+              }, {
+                "count" : 18,
+                "item" : "782.53"
+              }, {
+                "count" : 17,
+                "item" : "803.66"
+              }, {
+                "count" : 16,
+                "item" : "794.39"
+              }, {
+                "count" : 15,
+                "item" : "792.26"
+              }, {
+                "count" : 14,
+                "item" : "800.10"
+              }, {
+                "count" : 13,
+                "item" : "809.92"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248885,
+            "name" : "Quebec",
+            "dataTypeName" : "number",
+            "fieldName" : "quebec",
+            "position" : 12,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874428,
+            "width" : 172,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "618.90",
+              "sum" : "127414.77",
+              "null" : 0,
+              "average" : "740.7835465116279",
+              "largest" : "881.27",
+              "top" : [ {
+                "count" : 20,
+                "item" : "842.92"
+              }, {
+                "count" : 19,
+                "item" : "858.82"
+              }, {
+                "count" : 18,
+                "item" : "844.51"
+              }, {
+                "count" : 17,
+                "item" : "862.12"
+              }, {
+                "count" : 16,
+                "item" : "846.73"
+              }, {
+                "count" : 15,
+                "item" : "857.53"
+              }, {
+                "count" : 14,
+                "item" : "861.10"
+              }, {
+                "count" : 13,
+                "item" : "881.27"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          }, {
+            "id" : 131248886,
+            "name" : "Saskatchewan",
+            "dataTypeName" : "number",
+            "fieldName" : "saskatchewan",
+            "position" : 13,
+            "renderTypeName" : "number",
+            "tableColumnId" : 17874429,
+            "width" : 244,
+            "cachedContents" : {
+              "non_null" : 172,
+              "smallest" : "587.41",
+              "sum" : "133112.72",
+              "null" : 0,
+              "average" : "773.9111627906977",
+              "largest" : "992.31",
+              "top" : [ {
+                "count" : 20,
+                "item" : "979.19"
+              }, {
+                "count" : 19,
+                "item" : "984.95"
+              }, {
+                "count" : 18,
+                "item" : "992.31"
+              }, {
+                "count" : 17,
+                "item" : "991.30"
+              }, {
+                "count" : 16,
+                "item" : "982.60"
+              }, {
+                "count" : 15,
+                "item" : "991.21"
+              }, {
+                "count" : 14,
+                "item" : "988.79"
+              }, {
+                "count" : 13,
+                "item" : "977.35"
+              } ]
+            },
+            "format" : {
+              "precisionStyle" : "standard",
+              "precision" : "2",
+              "align" : "right",
+              "noCommas" : "false"
+            }
+          } ],
       "grants" : [ {
         "inherited" : false,
         "type" : "viewer",
